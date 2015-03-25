@@ -1,0 +1,67 @@
+.logo-md img {
+border-radius: 100%;
+height:118px;
+width: 189px;
+}
+.logo-md {
+text-align:center;
+margin-top:3px;	
+}
+.navbar-brand img{
+	width:30px;
+	height:30px;
+	border-radius:100%;
+}
+.navbar-nav{
+	float:none;
+	margin:0;
+	text-align:center;
+li{
+float: none;
+display: inline-block;
+@media screen and (max-width:#{$screen-phone}){
+	display: block;
+}
+}
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	width:100%;
+}
+
+.grid{
+padding: 55px 34px 0px;
+}
+.footer {
+	background-color:rgb(183, 177, 236);
+	margin-top:44px;
+}
+.texto{
+	padding:2px 18px;
+}
+.redes{
+	float:left;
+	width:20%;
+}
+
+.redes img {
+	width: 100%;
+}
+.color img{
+	width:100%;
+}
+.row {
+padding-bottom: 29px;
+}
+.overlay{
+position: absolute;
+width: 100%;
+top:0;
+background-color:rgba(21, 1, 1, 0.3);
+height:100%;
+}
+.overlay:hover{
+	background-color:rgba(239,207,234,0)
+}
+.color{
+	position:relative;
+}
